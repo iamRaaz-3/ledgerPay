@@ -8,22 +8,22 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      text: "Switching to Veena Expert Vault from ADP has completely transformed our workflow. The tedious task of manually uploading Excel files is no longer a concern. This platform has enabled us to save significant time while achieving a level of operational efficiency we hadn't imagined before.",
+      text: "Switching to LedgerTower from ADP has completely transformed our workflow. The tedious task of manually uploading Excel files is no longer a concern. This platform has enabled us to save significant time while achieving a level of operational efficiency we hadn't imagined before.",
       name: 'Rohit Sharma',
       company: 'Innovate Tech Solutions Pvt. Ltd.'
     },
     {
-      text: "Veena Expert Vault has made our payroll processes stress-free. The automated payslip distribution feature eliminates manual intervention, ensuring every pay run is handled with precision and ease.",
+      text: "Ledger Tower has made our payroll processes stress-free. The automated payslip distribution feature eliminates manual intervention, ensuring every pay run is handled with precision and ease.",
       name: 'Ananya Iyer',
       company: 'Greenfield Enterprises LLP'
     },
     {
-      text: "Veena Expert Vault's customization capabilities have exceeded our expectations. Unlike our previous software, which felt restrictive, this system adapts seamlessly to our policies. Not only has it made pay runs smoother, but it also saved me 110 hours previously spent on administration tasks.",
+      text: "Ledger Tower's customization capabilities have exceeded our expectations. Unlike our previous software, which felt restrictive, this system adapts seamlessly to our policies. Not only has it made pay runs smoother, but it also saved me 110 hours previously spent on administration tasks.",
       name: 'Vikram Mehta',
       company: 'Skyline Infrastructure Ltd.'
     },
     {
-      text: "Veena Expert Vault's integration with banks and application has streamlined salary payouts and related processes. Tasks like payroll accounting, business expense reimbursements, and syncing LOP are now effortless, saving us both time and effort.",
+      text: "Ledger Tower's integration with banks and application has streamlined salary payouts and related processes. Tasks like payroll accounting, business expense reimbursements, and syncing LOP are now effortless, saving us both time and effort.",
       name: 'Priya Deshpande',
       company: 'Oceanic Ventures Pvt. Ltd.'
     }

@@ -15,7 +15,7 @@ const HeroSection = () => {
             scalable, and compliant
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Transform outdated payroll practices and build a better workplace for your business with LedgerPay.
+            Transform outdated payroll practices and build a better workplace for your business with LedgerTower.
           </p>
 
           {/* --- 👇 BUTTON SECTION HERE 👇 --- */}

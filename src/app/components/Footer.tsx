@@ -21,9 +21,9 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold">VEV</span>
+                <span className="text-white font-bold">LT</span>
               </div>
-              <span className="text-lg font-semibold">Veena Expert Vault</span>
+              <span className="text-lg font-semibold">Block Hodl Labs Pvt.Ltd</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Transform outdated payroll practices and build a better workplace for your business.
@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <Mail className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-400 text-sm">support@veenaexpertvault.com</span>
+                <span className="text-gray-400 text-sm">support@ledgertower.com</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Phone className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
@@ -63,7 +63,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-400 text-sm">Mumbai, Maharashtra, India</span>
+                <span className="text-gray-400 text-sm">Gurgoan, Haryana, India</span>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2025 Veena Expert Vault. All rights reserved.
+            © 2025 Block Hodl Labs Pvt Ltd. All rights reserved.
           </p>
           
           <div className="flex space-x-4">
