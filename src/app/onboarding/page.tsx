@@ -1,9 +1,6 @@
 "use client";
+
 import { useState } from "react";
-
-
-
-
 
 const tabs = [
   {
@@ -13,7 +10,7 @@ const tabs = [
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">Manage your employees and stay on top of onboarding</h2>
         <p>Chart the right course for your payroll operations from the day you hire your first employee.</p>
-        <button className="bg-red-500 text-white px-5 py-2 rounded-md hover:bg-red-600 jus">Start Trial</button>
+        <button className="bg-red-500 text-white px-5 py-2 rounded-md hover:bg-red-600">Start Trial</button>
         <div className="grid md:grid-cols-2 gap-6 pt-6">
           <Feature title="Effortless data migration" desc="Bring your existing data into the vault with minimal effort using pre-defined templates." />
           <Feature title="Employee hikes, increments, and appraisals" desc="Track increments and appraisals effortlessly, reflecting them automatically in payslips." />
@@ -98,7 +95,7 @@ const tabs = [
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">Employee benefits that reflect your organization’s culture</h2>
         <p>Customize benefit plans that boost morale and provide security.</p>
-        <button className="bg-red-500 text-white px-5 py-2 rounded-md hover:bg-red-600 jus">Start Trial</button>
+        <button className="bg-red-500 text-white px-5 py-2 rounded-md hover:bg-red-600">Start Trial</button>
         <div className="grid md:grid-cols-2 gap-6 pt-6">
           <Feature title="Manage employee insurances" desc="Handle medical, term, and vehicle insurance efficiently." />
           <Feature title="Salary advances" desc="Assist employees in times of need with salary advances." />
@@ -110,7 +107,7 @@ const tabs = [
   },
 ];
 
-function Feature({title, desc }) {
+function Feature({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="p-4 border rounded-2xl shadow-sm hover:shadow-md transition">
       <h3 className="font-semibold mb-1">{title}</h3>
